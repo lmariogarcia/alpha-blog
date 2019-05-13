@@ -1,29 +1,6 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My Home Page </title>
-    <style>
-            img {
-              display: block;
-              margin-left: auto;
-              margin-right: auto;
-            }
-            button {
-              display: block;
-              margin-left: auto;
-              margin-right: auto;
-            }
-    </style>
-</head>
-<body>
-    <h1><center>Luis Mario Garcia</center></h1>
+<div class="center jumbotron">
+  <h1>Alpha Blog</h1>
+  <%= link_to "Sign up now", "#", class: "btn btn-primary btn-lg btn-xlarge" %>
+</div>
 
-    <%= image_tag "photos/profile.jpg", alt: "Luis Mario Garcia", class: "center", width: "400px", height: "400px" %>
-
-    <p><center>Every day I am 1% better!</center></p>
-    <button>Invest in Me</button>
-</body>
-</html>
-
-<%= link_to "About", about_path %> | <%= link_to "Alpha Blog", articles_path %>
